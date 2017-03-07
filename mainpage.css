@@ -12,3 +12,7 @@ body {
 .no_marg {
     margin: 0;
 }
+
+.no_padd {
+    padding: 0;
+}
