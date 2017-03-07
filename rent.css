@@ -9,7 +9,7 @@ body {
 }
 
 #pict {
-    width: 90%;
+    width: 100%;
 }
 
 .pict_div {
@@ -18,4 +18,8 @@ body {
 
 .no_padd {
     padding: 0;
+}
+
+.padd {
+    padding: 1%;
 }
