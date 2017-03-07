@@ -8,3 +8,7 @@
 body {
     background-color: lightcoral;
 }
+
+.no_marg {
+    margin: 0;
+}
