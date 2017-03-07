@@ -1,12 +1,12 @@
-* {
-    /*outline-color: black;
+/** {
+    outline-color: black;
     outline-width: thin;
-    outline-style: solid;*/
-    padding: 1%;
-}
+    outline-style: solid;
+}*/
 
 body {
     background-color: lightcoral;
+    padding: 1%;
 }
 
 .no_marg {
