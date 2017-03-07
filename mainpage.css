@@ -4,6 +4,14 @@
     outline-style: solid;
 }*/
 
+#leftpadd {
+    padding-left: 1%;
+}
+
+.big {
+    font-size: 250%;
+}
+
 body {
     background-color: lightcoral;
 }
