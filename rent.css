@@ -1,3 +1,9 @@
+* {
+    outline-color: black;
+    outline-width: thin;
+    outline-style: solid;
+}
+
 body {
     background-color: orange;
 }
@@ -8,4 +14,8 @@ body {
 
 .pict_div {
     padding: 2%;
+}
+
+.no_padd {
+    padding: 0;
 }
