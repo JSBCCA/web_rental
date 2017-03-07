@@ -1,8 +1,8 @@
-* {
+/** {
     outline-color: black;
     outline-width: thin;
     outline-style: solid;
-}
+}*/
 
 body {
     background-color: orange;
