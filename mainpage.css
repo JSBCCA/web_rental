@@ -1,9 +1,8 @@
-* {
-    /*outline-color: black;
+/** {
+    outline-color: black;
     outline-width: thin;
-    outline-style: solid;*/
-    padding: 1%;
-}
+    outline-style: solid;
+}*/
 
 body {
     background-color: lightcoral;
@@ -11,6 +10,10 @@ body {
 
 .no_marg {
     margin: 0;
+}
+
+.padd {
+    padding: 1%;
 }
 
 .no_padd {
