@@ -22,6 +22,9 @@ body {
 
 .pict_div {
     padding: 2%;
+    outline-color: black;
+    outline-width: thin;
+    outline-style: solid;
 }
 
 .no_padd {
