@@ -1,8 +1,8 @@
-/** {
+* {
     outline-color: black;
     outline-width: thin;
     outline-style: solid;
-}*/
+}
 
 #leftpadd {
     padding-left: 1%;
@@ -12,8 +12,11 @@ body {
     background-color: orange;
 }
 
-#pict {
-    width: 100%;
+.pict {
+    background-image: url("images/question.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .pict_div {
