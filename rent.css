@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: lightgray;
 }
 
 .pict {
@@ -18,6 +18,9 @@ body {
     background-position: center;
     background-color: white;
     padding-bottom: 100%;
+    outline-color: black;
+    outline-width: thin;
+    outline-style: solid;
 }
 
 .pict_div {
