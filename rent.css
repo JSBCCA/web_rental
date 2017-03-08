@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: orange;
+    background-color: black;
 }
 
 .pict {
@@ -25,6 +25,7 @@ body {
     outline-color: black;
     outline-width: thin;
     outline-style: solid;
+    background-color: lightgray;
 }
 
 .no_padd {
