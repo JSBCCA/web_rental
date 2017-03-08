@@ -13,10 +13,11 @@ body {
 }
 
 .pict {
-    background-image: url("images/question.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    background-color: white;
+    padding-bottom: 100%;
 }
 
 .pict_div {
@@ -37,7 +38,41 @@ body {
 
 td, th {
     background-color: white;
-    border: 1px solid gray;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
     text-align: left;
     padding: 8px;
+}
+
+.item1 {
+    background-image: url("images/mario_defect.jpg");
+}
+
+.item2 {
+    background-image: url("images/zelda_nes.jpg");
+}
+
+.item3 {
+    background-image: url("images/halo.jpg");
+}
+
+.item4 {
+    background-image: url("images/punch_out.jpg");
+}
+
+.item5 {
+    background-image: url("images/elder_scroll.jpg");
+}
+
+.item6 {
+    background-image: url("images/portal_gun.jpg");
+}
+
+.item7 {
+    background-image: url("images/kingdom_key.jpg");
+}
+
+.item8 {
+    background-image: url("images/jigglypuff.jpg");
 }
