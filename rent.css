@@ -4,8 +4,20 @@
     outline-style: solid;
 }
 
-#leftpadd {
-    padding-left: 1%;
+.navbar-default {
+  background-color:#ef476f;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+ }
+ 
+.navbar-default .navbar-brand{
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 200%
 }
 
 body {
