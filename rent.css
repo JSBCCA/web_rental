@@ -4,12 +4,8 @@
     outline-style: solid;*/
 }
 
-.navbar-header {
-    padding: 0;
-}
-
 .navbar-default {
-  background-color:lightgray;
+  background-color:#ef476f;
   background-image: none;
   background-repeat: no-repeat;
   border-color: black;
@@ -17,35 +13,27 @@
   border-width: thin;
   color: white;
  }
+ 
+.navbar-default .navbar-brand{
+    color: white;
+}
 
-.navbar-text {
-    border-color: black;
-    border-style: solid;
-    border-width: thin;
-    height: 100%;
-    padding-right: 10%;
-    padding-left: 10%;
-    /*padding-top: 5%;
-    padding-bottom: 1%;*/
-    margin: 0;
+.navbar-default .navbar-nav>li>a {
+    color: white;
     font-size: 200%;
 }
 
-.navbar-default .navbar-nav>a {
-    color: white;
-    font-size: 150%;
-    /*padding-right: 1%;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;*/
-    padding: 0;
-    border-color: black;
-    border-style: solid;
-    border-width: thin;
+.navbar-nav {
+    padding-top: 0%;
 }
 
-.navbar-nav {
-    padding: 0;
+.navbar-header {
+    padding-top: 0%;
+}
+
+.navbar-default .navbar-text {
+    color: white;
+    font-size: 150%;
 }
 
 body {
@@ -108,7 +96,3 @@ td, th {
 .item6 {background-image: url("images/portal_gun.jpg");}
 .item7 {background-image: url("images/kingdom_key.jpg");}
 .item8 {background-image: url("images/jigglypuff.jpg");}
-
-.navbar-default .navbar-text {
-    color: white;
-}
