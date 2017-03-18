@@ -1,5 +1,5 @@
 var price_total = {
-// take item numbers from each of the eight boxes, multiply by prices, add all together, return price 
+// take item numbers from each of the eight boxes, multiply by prices, add all together, return total 
   item1: [0, 150],
   item2: [0, 210],
   item3: [0, 260],
@@ -19,11 +19,33 @@ var price_total = {
     var total7 = price_total.item7[0] * price_total.item7[1];
     var total8 = price_total.item8[0] * price_total.item8[1];
     var total_price = total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8;
-    $("#total").text("Your total is: " + total_price);
+    $("#total").text("Your total is: $" + total_price);
+  },
+
+  value_func: function(item, n) {
+    try {
+      if ($("#form" + n).val() == null) {
+        item[0] = 0;
+      } else if ($("#form" + n).val() > -1 && $("#form" + n).val() < 100) {
+        item[0] = $("#form" + n).val();
+      } else {
+        item[0] = 0;
+      }
+    }
+    finally {
+      return false;
+    }
   }
 }
 
-
+$("#form1").submit(function () { return price_total.value_func(item1, 1); });
+$("#form2").submit(function () { return price_total.value_func(item2, 2); });
+$("#form3").submit(function () { return price_total.value_func(item3, 3); });
+$("#form4").submit(function () { return price_total.value_func(item4, 4); });
+$("#form5").submit(function () { return price_total.value_func(item5, 5); });
+$("#form6").submit(function () { return price_total.value_func(item6, 6); });
+$("#form7").submit(function () { return price_total.value_func(item7, 7); });
+$("#form8").submit(function () { return price_total.value_func(item8, 8); });
 
 
 
@@ -58,5 +80,3 @@ var price_total = {
   //  $('#total_3').text('Total: $' + this.total);
   //  $('#total_4').text('Total: $' + this.total);
   // }
-
-}
