@@ -4,6 +4,10 @@
     outline-style: solid;*/
 }
 
+.navbar-default .navbar-brand{
+    color: white;
+}
+
 .navbar-default {
   background-color:#ef476f;
   background-image: none;
@@ -13,27 +17,38 @@
   border-width: thin;
   color: white;
  }
- 
-.navbar-default .navbar-brand{
-    color: white;
-}
 
 .navbar-default .navbar-nav>li>a {
     color: white;
     font-size: 200%;
-}
-
-.navbar-nav {
-    padding-top: 0%;
-}
-
-.navbar-header {
-    padding-top: 0%;
+    margin: 5%;
 }
 
 .navbar-default .navbar-text {
     color: white;
     font-size: 150%;
+}
+
+.navbar-nav {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.navbar-header {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+@media (min-width: 768px)
+navbar.less:115
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 body {
