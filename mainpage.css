@@ -1,8 +1,8 @@
-* {
+/** {
     outline-color: black;
     outline-width: thin;
     outline-style: solid;
-}
+}*/
 
 #leftdownpadd {
     padding-left: 1%;
@@ -10,10 +10,14 @@
 }
 
 .downpadd {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 
-.big {
+.bigger {
+    font-size: 150%;
+}
+
+.biggest {
     font-size: 250%;
 }
 
