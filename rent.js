@@ -1,35 +1,34 @@
 var price_total = {
 // take item numbers from each of the eight boxes, multiply by prices, add all together, return total 
-  item1: [0, 150],
-  item2: [0, 210],
-  item3: [0, 260],
-  item4: [0, 140],
-  item5: [0, 400],
-  item6: [0, 200],
-  item7: [0, 250],
-  item8: [0, 30],
+  items: [0, 0, 0, 0, 0, 0, 0, 0],
+  prices: [150, 210, 260, 140, 400, 200, 250, 30],
 
   calculate: function() {
-    var total1 = price_total.item1[0] * price_total.item1[1];
-    var total2 = price_total.item2[0] * price_total.item2[1];
-    var total3 = price_total.item3[0] * price_total.item3[1];
-    var total4 = price_total.item4[0] * price_total.item4[1];
-    var total5 = price_total.item5[0] * price_total.item5[1];
-    var total6 = price_total.item6[0] * price_total.item6[1];
-    var total7 = price_total.item7[0] * price_total.item7[1];
-    var total8 = price_total.item8[0] * price_total.item8[1];
+    var total1 = this.items[0] * this.prices[0];
+    var total2 = this.items[1] * this.prices[1];
+    var total3 = this.items[2] * this.prices[2];
+    var total4 = this.items[3] * this.prices[3];
+    var total5 = this.items[4] * this.prices[4];
+    var total6 = this.items[5] * this.prices[5];
+    var total7 = this.items[6] * this.prices[6];
+    var total8 = this.items[7] * this.prices[7];
     var total_price = total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8;
     $("#total").text("Your total is: $" + total_price);
   },
 
-}
+  addto: function(num) {
 
+  },
+
+  removefrom: function(num) {
+
+  }
+}
 
 // function tied to buttons that raises quanity in js and on page
 // quanity ++, paste "Quanity: 1"
 
 var cart = {
-  name: ['Item A', 'Item B', 'Item C'],
   price: [50, 35, 95],
   quantity: [0, 0, 0],
   total: 0,
